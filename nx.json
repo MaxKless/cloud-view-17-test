@@ -55,5 +55,7 @@
         "serveStaticTargetName": "serve-static"
       }
     }
-  ]
+  ],
+  "nxCloudAccessToken": "ZGM4YTM4MDgtZmQ0ZS00NTk2LTg3NjUtNDg3MGM5OTg5YWJmfHJlYWQtd3JpdGU=",
+  "nxCloudUrl": "https://staging.nx.app"
 }
