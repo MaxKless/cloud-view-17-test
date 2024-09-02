@@ -3,13 +3,8 @@
   "targetDefaults": {
     "build": {
       "cache": true,
-      "dependsOn": [
-        "^build"
-      ],
-      "inputs": [
-        "production",
-        "^production"
-      ]
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
     },
     "lint": {
       "cache": true
@@ -25,17 +20,11 @@
     },
     "e2e": {
       "cache": true,
-      "inputs": [
-        "default",
-        "^production"
-      ]
+      "inputs": ["default", "^production"]
     }
   },
   "namedInputs": {
-    "default": [
-      "{projectRoot}/**/*",
-      "sharedGlobals"
-    ],
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": [
       "default",
       "!{projectRoot}/.eslintrc.json",
@@ -67,6 +56,5 @@
       }
     }
   ],
-  "nxCloudUrl": "https://staging.nx.app",
-  "nxCloudId": "66d06511ca5e4c3a8c81f707"
+  "nxCloudAccessToken": "NzdlMTgzMzAtZTA3Mi00YTYxLThiMTQtZTkyMzZhNzk4NDg1fHJlYWQtd3JpdGU="
 }
